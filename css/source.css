@@ -1,0 +1,69 @@
+/* Estilos del header */
+.head-1{
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#icon-1{
+    justify-content: left;
+    height: 90px;
+    height: 90px;
+}
+.icon-2, .icon-3{
+    display: block;
+    margin: 0 auto;
+    height: 90px;
+}
+h1{
+    justify-content: right;
+    text-align: right;
+    padding-left: 70px;
+    padding-top: 10px;
+    color: blueviolet;
+}
+.big-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.me-1{
+    background-color: antiquewhite;
+}
+/* agrupaciones */
+.doc-1, .doc-2, .doc-3,
+.doc-4, .doc-5, .doc-6{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.doc-1, .doc-6{
+ background-color: rgb(178, 62, 83);
+ padding: 10px;
+ border: 0.5px solid #b21919; 
+}
+.doc-2, .doc-5{
+ background-color: rgb(170, 217, 100);
+ padding: 10px;
+ border: 0.5px solid #53be29; 
+}
+.doc-3, .doc-4{
+ background-color: rgb(80, 145, 219);
+ padding: 10px;
+ border: 0.5px solid #1b5eda; 
+}
+
+.btn-agendar{
+    display: block;
+    margin: 0 auto;
+    color: aliceblue;
+    background-color: rgb(53, 147, 214);
+
+}
+footer{
+    background-color: rgb(229, 195, 71);
+}
